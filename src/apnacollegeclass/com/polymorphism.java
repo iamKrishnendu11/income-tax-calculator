@@ -1,4 +1,5 @@
 package apnacollegeclass.com;
+
 interface MyCamera2{
 void takeSnap();
 void recordVideo();
@@ -46,7 +47,8 @@ class mySmartPhone2 extends myCellPhone implements MyWifi2 ,MyCamera2{
 public class polymorphism {
     public static void main(String[] args) {
         MyCamera2 cam1 = new mySmartPhone2();
-        // this is a smartphone but use it of camera. cannot access wifi
+        // this is a smartphone but use it for camera. cannot access wifi
         cam1.recordVideo4k();
+        cam1.recordVideo();
     }
 }
