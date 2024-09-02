@@ -2,7 +2,7 @@ package apnacollegeclass.com;
 
 public class arrays {
     public static void main(String[] args) {
-        /* classroom of 500 students. you have to store morks of all 500 students
+        /* classroom of 500 students. you have to store marks of all 500 students
         you have 2 option
         1. create 500 variable
         2.use arrays

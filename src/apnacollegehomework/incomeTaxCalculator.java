@@ -1,5 +1,8 @@
 package apnacollegehomework;
 import java.util.Scanner;
+import apnacollegeclass.com.*;
+import org.w3c.dom.ls.LSOutput;
+
 public class incomeTaxCalculator {
     /* 0-2.5 lakh == no tax
     2.5-5 lakh == 5%
